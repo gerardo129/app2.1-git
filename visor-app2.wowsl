@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>13</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>visor-app2</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>flip</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/twist/</ImageTemplate>
+            <ImageTemplateName>Twist</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#F2C409</TemplateColor>
+            <TemplateFont>PT Sans</TemplateFont>
+            <TemplateName>twist</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>J:/DAM/Segundo parcial/aplicaciones/app2/imagenes/mitelefono.png</url>
+                <title>mitelefono</title>
+                <filesize>105099</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/Segundo parcial/aplicaciones/app2/imagenes/motoz.png</url>
+                <title>motoz</title>
+                <filesize>618160</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/Segundo parcial/aplicaciones/app2/imagenes/pixie4.png</url>
+                <title>pixie4</title>
+                <filesize>55404</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/Segundo parcial/aplicaciones/app2/imagenes/galaxi s6.png</url>
+                <title>galaxi s6</title>
+                <filesize>585811</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/Segundo parcial/aplicaciones/app2/imagenes/gamaalta.png</url>
+                <title>gamaalta</title>
+                <filesize>158507</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/Segundo parcial/aplicaciones/app2/imagenes/gamabaja.png</url>
+                <title>gamabaja</title>
+                <filesize>451834</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/Segundo parcial/aplicaciones/app2/imagenes/gamamedia.png</url>
+                <title>gamamedia</title>
+                <filesize>605256</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/Segundo parcial/aplicaciones/app2/imagenes/definicioncelular3.png</url>
+                <title>definicioncelular3</title>
+                <filesize>151308</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/Segundo parcial/aplicaciones/app2/imagenes/historiacelular3.png</url>
+                <title>historiacelular3</title>
+                <filesize>171479</filesize>
+            </Image>
+            <Image>
+                <url>J:/DAM/Segundo parcial/aplicaciones/app2/imagenes/definicioncelular2.png</url>
+                <title>definicioncelular2</title>
+                <filesize>38716</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

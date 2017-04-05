@@ -1,0 +1,334 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>segunda aplicacion</title>
+
+   <!--grupo css-->
+   <link rel="stylesheet" href="css/tema-app1.min.css"/>
+   <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+   <link rel="stylesheet"href="css/jquery.mobile.structure-1.4.5.min.css"/>
+   <!--grupo javascript-->
+   <script src="js/jquery-1.11.2.min.js"></script>
+   <script src="js/jquery.mobile-1.4.5.min.js"></script>
+   <script src="js/acciones.js"></script>
+   <script src="phonegap.js"></script>
+   <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+   </script>
+   <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+</head>
+
+ <body onLoad="MM_preloadImages('imagenes/mitelefono.png','imagenes/pixie4.png')">
+
+   <div data-role="page" id="pricipal" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar"  data-back-btn-theme="b">
+       <h1>Telefonia Celular</h1>
+       </div>
+       <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false">
+           <h1>Telefono 1:</h1>
+         <div>
+          <p>Telefono :</p>
+          <br>
+         </div>
+         <div>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','imagenes/pixie4.png',1)"><img src="imagenes/motoz.png" width="20%" height="30%" id="Image4"></a> </div>
+                </div>
+                  <div data-role="collapsible" data-content-theme="false">
+           <h1>Telefono 2:</h1>
+         <div>
+          <p>Telefono :</p>
+          <br>
+         </div>
+         <div>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','imagenes/mitelefono.png',1)"><img src="imagenes/galaxi s6.png" width="20%" height="30%" id="Image5"></a>
+           </div>
+          </div>
+
+         </div>
+          <div>
+            <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+             <li class="ui-first-child">
+               <a href="#pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                <h2>Definicion de telefono celular</h2>
+                  <p>Explica y define el concepto de telefono celular</p>
+                 </a>
+                </li>
+                <li class="ui-first-child ui-last-child">
+                  <a href="#pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                    <h2>Historia de telefono celular</h2>
+                    <p>Recorrido a lo largo de la historia del telefono celular</p>
+                   </a>
+                  </li>
+                  <li class="ui-first-child ui-last-child">
+                    <a href="#pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                    <h2>Clasificacion de telefono celular</h2>
+                    <p>Muestra las diferentes gamas del telefono celular</p>
+                   </a>
+                  </li>
+                  <li class="ui-first-child ui-last-child">
+                   <a href="#pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                    <h2>Compañias celulares</h2>
+                    <p>Resumen de las diferentes compañias que distribuyen los telefonos celulares</p>
+                   </a>
+                   </li>
+                      </ul>
+                      <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/mitelefono.png" alt="mitelefono" title="mitelefono" id="wows1_0"/></li>
+		<li><img src="data1/images/motoz.png" alt="motoz" title="motoz" id="wows1_1"/></li>
+		<li><img src="data1/images/pixie4.png" alt="pixie4" title="pixie4" id="wows1_2"/></li>
+		<li><img src="data1/images/galaxi_s6.png" alt="galaxi s6" title="galaxi s6" id="wows1_3"/></li>
+		<li><img src="data1/images/gamaalta.png" alt="gamaalta" title="gamaalta" id="wows1_4"/></li>
+		<li><img src="data1/images/gamabaja.png" alt="gamabaja" title="gamabaja" id="wows1_5"/></li>
+		<li><img src="data1/images/gamamedia.png" alt="gamamedia" title="gamamedia" id="wows1_6"/></li>
+		<li><img src="data1/images/definicioncelular3.png" alt="definicioncelular3" title="definicioncelular3" id="wows1_7"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/historiacelular3.png" alt="wow slider" title="historiacelular3" id="wows1_8"/></a></li>
+		<li><img src="data1/images/definicioncelular2.png" alt="definicioncelular2" title="definicioncelular2" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="mitelefono"><span><img src="data1/tooltips/mitelefono.png" alt="mitelefono"/>1</span></a>
+		<a href="#" title="motoz"><span><img src="data1/tooltips/motoz.png" alt="motoz"/>2</span></a>
+		<a href="#" title="pixie4"><span><img src="data1/tooltips/pixie4.png" alt="pixie4"/>3</span></a>
+		<a href="#" title="galaxi s6"><span><img src="data1/tooltips/galaxi_s6.png" alt="galaxi s6"/>4</span></a>
+		<a href="#" title="gamaalta"><span><img src="data1/tooltips/gamaalta.png" alt="gamaalta"/>5</span></a>
+		<a href="#" title="gamabaja"><span><img src="data1/tooltips/gamabaja.png" alt="gamabaja"/>6</span></a>
+		<a href="#" title="gamamedia"><span><img src="data1/tooltips/gamamedia.png" alt="gamamedia"/>7</span></a>
+		<a href="#" title="definicioncelular3"><span><img src="data1/tooltips/definicioncelular3.png" alt="definicioncelular3"/>8</span></a>
+		<a href="#" title="historiacelular3"><span><img src="data1/tooltips/historiacelular3.png" alt="historiacelular3"/>9</span></a>
+		<a href="#" title="definicioncelular2"><span><img src="data1/tooltips/definicioncelular2.png" alt="definicioncelular2"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+                     </div>
+                     <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+                      <div>
+                        <img src="imagenes/logo.png" width="5%" height="5%">
+                       </div>
+                       <div>
+                           <h4>aplicacion 2</h4>
+                           <h4>gerardo quintero sanchez</h4>
+                           </div>
+                         </div>
+                         </div>
+                         <div data-role="page" id="pagina1" data-add-back-btn="true" data-theme="a">
+                          <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="b">
+                          <h1>Definicion de telefono celular</h1>
+                         </div>
+                         <div data-role="content" align="center">
+                           <div>
+                             <h2>Se conoce como celular al dispositivo inalámbrico electrónico que está preparado para tener acceso a la telefonía celular, también conocida como móvil.
+                             <div data-role="collapsible" data-content-theme="false">
+           <h1>red movil:</h1>
+         <div>
+          <p>Antena repetidora</p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/definicioncelular2.png" width="20%" height="30%" alt="gamabaja"> </div>
+           </div>
+En tanto, la denominación celular tiene su razón de ser en que cada una de las antenas repetidoras, que forman parte de la red, son células.
+El rasgo diferencial que ostenta el teléfono celular por sobre los otros tipos de teléfono es su fácil portación, en la cartera, en el bolso, incluso en los bolsillos del pantalón o pollera.
+ <div data-role="collapsible" data-content-theme="false">
+           <h1>uso del telefono celular</h1>
+         <div>
+          <p>La mayoria del planeta tiene almenos un dispositivo movil</p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/definicioncelular.png" width="30%" height="40%" alt="gamabaja"> </div>
+           </div>
+ Los seres humanos que formamos parte de esta comunidad conectada celularmente podemos llevar con nosotros y a cualquier lado este tipo de teléfono porque no pesan casi nada.
+ <div data-role="collapsible" data-content-theme="false">
+           <h1>Dispositivo movil</h1>
+         <div>
+          <p>Aqui se puede apreciar que el dispositivo es muy liviano y compacto</p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/definicioncelular3.png" width="30%" height="40%" alt="gamabaja"> </div>
+           </div>
+<h2>
+                           </div>
+                          </div>
+                          <div data-role="footer" data-theme="a" data-position="fixed">
+                            <h4>aplicacion 2,GQS</h4>
+                          </div>
+                       </div>
+                       
+                       
+                       <div data-role="page" id="pagina2" data-add-back-btn="true" data-theme="a">
+                         <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="b">
+                           <h1>Historia de los telefonos celulares</h1>
+                          </div>
+                           <div data-role="content" align="center">
+                            <div>
+                              <h2>En las primeras etapas de la ingeniería de radio, se concibió un servicio de radio móvil de mano. En 1917, el inventor finlandés Eric Tigerstedt presentó una patente para un "Teléfono plegable de bolsillo con un micrófono de carbono muy delgado". Los primeros predecesores de los teléfonos celulares incluyen las comunicaciones de radio analógicas de barcos y trenes. La carrera para crear dispositivos telefónicos portátiles realmente comenzó después de la Segunda Guerra Mundial, con la evolución que tiene lugar en muchos países. Los avances de la telefonía móvil se han trazado en "generaciones" sucesivas, empezando por los servicios "0G" (generación cero), tales como Servicio de Telefonía Móvil de Sistemas de Bell y su sucesor, el Servicio de Telefonía Móvil Mejorada. Estos sistemas "0G" no eran celular, soportaban algunas llamadas simultáneas, y eran muy caros.
+El Motorola DynaTAC 8000X.
+<div data-role="collapsible" data-content-theme="false">
+           <h1>Motorola DynaTAC 8000x:</h1>
+         <div>
+          <p>El primer telefono</p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/historiacelular3.png" width="40%" height="45%" alt="gamabaja"> </div>
+           </div>
+                 El primer teléfono móvil celular de mano disponible comercialmente en el mercado, 1984.
+El primer teléfono celular de mano fue presentado por Motorola en 1973. La primera red celular automatizada comercial fue lanzada en Japón por Nippon Telegraph and Telephone en 1979. Esto fue seguido en 1981 por el lanzamiento simultáneo del sistema de Telefonía Móvil Nórdica (NMT) en Dinamarca, Finlandia, Noruega y Suecia.6 Muchos otros países siguieron aplicándose en la primera mitad de la década de 1980. Estos sistemas de primera generación (1G) podían hacer llamadas simultáneas más lejos, pero todavía se utilizaba la tecnología analógica.
+En 1991, la segunda generación (2G) de tecnología celular digital fue lanzada en Finlandia por Radiolinja en el estándar GSM. Esto provocó la competencia en el sector ya que los nuevos operadores desafiaron a los operadores de red 1G existentes.
+Diez años más tarde, en 2001, la tercera generación (3G) fue lanzada en Japón por NTT DoCoMo en el estándar WCDMA. Esto fue seguido de 3.5G, 3G+ o 3G turbo mejoras basadas en el acceso de paquetes de alta velocidad (HSPA) de la familia, lo que permite a las redes UMTS tienen mayores velocidades de transferencia de datos y la capacidad
+Para el año 2009, se hizo evidente que, en algún momento, las redes 3G se verían abrumadas por el crecimiento de las aplicaciones de banda ancha, tales como transmisión multimedia.7 En consecuencia, la industria comenzó a buscar a las tecnologías de datos de cuarta generación optimizadas, con la promesa de mejorar la velocidad hasta diez veces sobre tecnologías 3G existentes. Las dos primeras tecnologías disponibles en el mercado facturadas como 4G eran el estándar WiMAX, ofrecido en Norteamérica por Sprint, y el estándar LTE, quien se ofreció por primera vez en Escandinavia por TeliaSonera.
+</h2></div></div>
+                             <div data-role="collapsible" data-content-theme="false">
+           <h1>Transformacion del celular:</h1>
+         <div>
+          <p>diferentes celulares a lo largo de la historia</p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/historiacelular.png" width="40%" height="45%" alt="gamabaja"> </div>
+                </div>
+                 <div data-role="collapsible" data-content-theme="false">
+           <h1>Telefonos celulares mas usados:</h1>
+         <div>
+          <p>telefnos mas comprados en su tiempo</p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/historiacelular2.png" width="40%" height="45%" alt="gamabaja"> </div>
+                </div>
+                             <div data-role="footer" data-theme="a" data-position="fixed">
+                                <h4>aplicacion 2,GQS</h4>
+                             </div>
+                              </div>
+                              
+                              
+         <div data-role="page" id="pagina3" data-add-back-btn="true" data-theme="a">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="b">
+             <h1>Clasificacion de los telefonos celulares</h1>
+            </div>
+             <div data-role="content" align="center">
+              <div>
+                <h2>Celulares de baja gama: bajo este nombre se identifican a aquellos teléfonos móviles que cuentan si bien cuentan con una cámara de fotos, esta es de baja calidad. Además de esto, incluyen un reproductor de música aunque de los más básicos, al igual que la memoria que presentan, que es bastante limitada. Los celulares de baja gama tampoco incluyen pantalla táctil y ésta suele ser de tamaño reducido. La conexión a Internet que ofrecen es bastante limitada y no cuentan con 3G. A pesar de que estos dispositivos son bastante limitados, siguen siendo muy utilizados por los usuarios ya que ofrecen servicios que, para quienes no son muy exigentes o lo usan de forma esporádica,  satisfacen las necesidades que estos usuarios pueden tener, principalmente la de mantenerse comunicados con otros usuarios.</h2>
+                <div data-role="collapsible" data-content-theme="false">
+           <h1>Telefono de gama baja:</h1>
+         <div>
+          <p>Nokia Lumia 900</p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/gamabaja.png" width="20%" height="30%" alt="gamabaja"> </div>
+                </div>
+                </div>
+              </div>
+              <h2>Celulares de media gama: estos celulares, en cambio, ofrecen pantallas un poco más grandes que los anteriores, por lo que su calidad es bastante mayor y resultan mucho más prácticas para los usuarios. Además de esto, la cámara de fotos que tienen es de mayor calidad, al igual que los reproductores de MP3. Estos teléfonos móviles también ofrecen juegos, mensaje de texto, calculadora y distintas aplicaciones. Con respecto a la conexión a Internet, permite navegar con HTML y puede ocurrir que algunos modelos cuenten con 3G.</h2>
+              <div data-role="collapsible" data-content-theme="false">
+           <h1>Telefono de gama media:</h1>
+         <div>
+          <p>Samsung galaxi note</p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/gamamedia.png" width="20%" height="30%" alt="gamamedia"> </div>
+                </div>
+           <h2>Celulares de alta gama: estos dispositivos son más completos y avanzados que los modelos anteriores. Entre otras cosas, la conexión a Internet es superior y sí ofrecen 3G. Además, la pantalla es de grandes dimensiones, excelente calidad y táctil. Por otro lado, estos teléfonos cuentas con reproductores de música muy avanzados, Bluetooth, cámara para grabar y sacar fotos, brújula digital y muchas otras aplicaciones y juegos que hacen del celular una excelente opción no sólo para mantenerse conectado con otros usuarios sino también como medio de entretenimiento y de información.</h2>
+            <div data-role="collapsible" data-content-theme="false">
+           <h1>Telefono de gama alta:</h1>
+         <div>
+          <p>HTC One</p>
+          <br>
+         </div>
+         <div>
+           <img src="imagenes/gamaalta.png" width="20%" height="30%" alt="gamaalta"> </div>
+                </div> 
+            <div data-role="footer" data-theme="a" data-position="fixed">
+              <h4>aplicacion 2,GQS</h4>
+            </div>
+            </div>
+            
+            
+           <div data-role="page" id="pagina4" data-add-back-btn="true" data-theme="a">
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="b">
+                <h1>Compañias Telefonicas</h1>
+              </div>
+              <div data-role="content" align="center">
+               <div>
+                 <h2> <div data-role="collapsible" data-content-theme="false">
+           <h1>TELCEL:</h1>
+         <div>
+          <p>Logo:</p>
+          <br>
+         </div>
+         <div>
+           <a href="http://www.telcel.com/"><img src="imagenes/logotelcel.png" width="20%" height="30%" alt="gamaalta"> </div></a>
+                </div>
+                 <div data-role="collapsible" data-content-theme="false">
+           <h1>Movistar:</h1>
+         <div>
+          <p>Logo:</p>
+          <br>
+         </div>
+         <div>
+           <a href="http://www.movistar.com.mx/"><img src="imagenes/logomovistar.png" width="20%" height="30%" alt="gamaalta"> </div></a>
+                </div>
+                 <div data-role="collapsible" data-content-theme="false">
+           <h1>VIRGIN MOBILE:</h1>
+         <div>
+          <p>Logo:</p>
+          <br>
+         </div>
+         <div>
+           <a href="https://www.virginmobile.mx/es/inicio/"><img src="imagenes/logovirginmobile.png" width="20%" height="30%" alt="gamaalta"> </div></a>
+                </div> 
+                 <div data-role="collapsible" data-content-theme="false">
+           <h1>WEEX:</h1>
+         <div>
+          <p>Logo:</p>
+          <br>
+         </div>
+         <div>
+           <a href="http://weex.mx/"><img src="imagenes/logoweex.png" width="20%" height="30%" alt="gamaalta"></div></a>
+                </div>  
+                </h2>
+               </div>
+              </div>
+             <div data-role="footer" data-theme="a" data-position="fixed">
+                  <h4>aplicacion 2,GQS</h4>
+             </div>
+             </div>
+             
+              
+              
+              
+</body>
+</html>
+
